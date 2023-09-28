@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+from typing import List
+
 def pascal_triangle(n: int) -> List[list]:
     '''
     Pascal triangle

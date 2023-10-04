@@ -3,6 +3,7 @@ from typing import List
 
 
 def pascal_triangle(n):
+    List[list]
     if n <= 0:
         return []
 

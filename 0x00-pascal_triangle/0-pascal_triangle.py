@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 from typing import List
-
-
 def pascal_triangle(n):
+    ''' pascal triangle '''
     triangle = []
     if type(n) is not int or n <= 0:
         return triangle

@@ -2,7 +2,7 @@
 
 def pascal_triangle(n):
     ''' pascal list '''
-    list = []
+    int list = []
     if type(n) is not int or n <= 0:
         return list
     for i in range(n):

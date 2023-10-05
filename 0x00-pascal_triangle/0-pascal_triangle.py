@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
+''' pascal '''
 def pascal_triangle(n):
     ''' pascal list '''
-    int list = []
+    list = []
     if type(n) is not int or n <= 0:
         return list
     for i in range(n):
